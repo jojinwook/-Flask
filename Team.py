@@ -7,11 +7,12 @@ app = Flask(__name__)
 @app.route('/<name>')
 
 def index(name='jinwook'):
-    # name = request.args.get('name',name)
+    name = request.args.get('name',name)
     return "HIHIIHIHIHIHIHIHIHIHIHI    {}".format(name)
 
-# @app.route('/add/<int:num1>/<int:num2>')
-# @app.route('/add/<float:num1>/<float:num2>')
+@app.route('/add/<int:num1>/<int:num2>')
+@app.route('/add/<float:num1>/<float:num2>')
+
 @app.route('/add/<int:num1>/<float:num2>')
 @app.route('/add/<float:num1>/<int:num2>')
 
