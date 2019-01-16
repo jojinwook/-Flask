@@ -12,7 +12,6 @@ def index(name='jinwook'):
 
 @app.route('/add/<int:num1>/<int:num2>')
 @app.route('/add/<float:num1>/<float:num2>')
-
 @app.route('/add/<int:num1>/<float:num2>')
 @app.route('/add/<float:num1>/<int:num2>')
 
