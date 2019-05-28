@@ -19,7 +19,7 @@ class RegistUser(Resource):
         return {'name': name, 'email': email}
 
 
-sleep(1)
+sleep(2)
 api.add_resource(RegistUser, '/user')
 
 if __name__ == '__main__':
