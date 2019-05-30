@@ -18,7 +18,7 @@ class RegistUser(Resource):
 
         return {'name': name, 'email': email}
      def test_script(self):
-         @class
+         
 
 sleep(2)
 api.add_resource(RegistUser, '/user')
