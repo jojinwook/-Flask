@@ -20,7 +20,6 @@ class RegistUser(Resource):
      def test_script(self):
          
 
-sleep(2)
 api.add_resource(RegistUser, '/user')
 
 if __name__ == '__main__':
