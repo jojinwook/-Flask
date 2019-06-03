@@ -5,7 +5,7 @@ from flask import request, jsonify
 
 app = Flask(__name__)
 api = Api(app)
-
+@class app
 class RegistUser(Resource):
     def post(self):
         parser = reqparse.RequestParser()
