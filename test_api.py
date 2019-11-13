@@ -44,7 +44,8 @@ def login():
       user = request.args.get('myName')
       return redirect(url_for('success', name=user))
     
-    
+======
+     
 class CreateUser(Resource):
     def post(self):
         try:
