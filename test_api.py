@@ -20,7 +20,6 @@ class RegistUser(Resource):
         return {'name': name, 'email': email}
      def test_script(self):
          
-
 api.add_resource(RegistUser, '/user')
 
 if __name__ == '__main__':
